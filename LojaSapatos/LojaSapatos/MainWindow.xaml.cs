@@ -41,5 +41,17 @@ namespace LojaSapatos
             CadastroCliente cadastroCliente = new CadastroCliente();
             cadastroCliente.Show();
         }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            ListaClientes listaClientes = new ListaClientes();
+            listaClientes.Show();
+        }
+
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            ListaProdutos listaProdutos = new ListaProdutos();
+            listaProdutos.Show();
+        }
     }
 }

@@ -19,12 +19,12 @@
             </MenuItem>            
             <!--Estoque de Produtos-->
             <MenuItem Header="Estoque" HorizontalAlignment="Right" Height="20" Width="70">
-                
+                <MenuItem Header="Lista de Produtos" Click="MenuItem_Click_3"/>
             </MenuItem>
             <!--Cliente-->
             <MenuItem Header="Cliente" HorizontalAlignment="Right" Height="20" Width="70">
                 <MenuItem Header="Cadastrar Cliente" Click="MenuItem_Click_1"/>
-                <MenuItem Header="Lista de Clientes"/>
+                <MenuItem Header="Lista de Clientes" Click="MenuItem_Click_2"/>
             </MenuItem>
             <!--Compras-->
             <MenuItem Header="Carrinho" HorizontalAlignment="Right" Height="20" Width="70"/>
