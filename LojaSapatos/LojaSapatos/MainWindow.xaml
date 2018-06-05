@@ -5,9 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LojaSapatos"
         mc:Ignorable="d"
-        Title="LojaSapatos" Height="450" Width="800">
-    <Grid>
-        <Grid HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Background="Blue"/>
+        Title="LojaSapatos" Height="800" Width="1200">
+    <Grid HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1190">
+        <Image Source="imagens/fundo.jpg" Stretch="Fill"/>
+        <Image Source="imagens/Logo.png" Margin="866,544,10,10"/>
+        <Image Source="imagens/Logo.png" Margin="0,25,876,529"/>
+        <Image Source="imagens/logo21.png" Stretch="Fill"/>
+        <!--Menu-->
+        <Menu Name="menuPrincipal" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="1190">
+            <!--Cadastro de Produtos-->
+            <MenuItem Header="Cadastrar" HorizontalAlignment="Center" Height="20" Width="70">
+                <MenuItem Header="CadastrarSapatos" Click="MenuItem_Click"/>
+            </MenuItem>            
+            <!--Estoque de Produtos-->
+            <MenuItem Header="Estoque" HorizontalAlignment="Right" Height="20" Width="70">
+                
+            </MenuItem>
+            <!--Cliente-->
+            <MenuItem Header="Cliente" HorizontalAlignment="Right" Height="20" Width="70">
+                <MenuItem Header="Cadastrar Cliente" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Lista de Clientes"/>
+            </MenuItem>
+            <!--Compras-->
+            <MenuItem Header="Carrinho" HorizontalAlignment="Right" Height="20" Width="70"/>
+            <!--Relatorio-->
+            <MenuItem Header="Relatorio" HorizontalAlignment="Right" Height="20" Width="70">
+                <MenuItem Header="Relatorio de Vendas"/>
 
+            </MenuItem>
+
+        </Menu>
     </Grid>
+
 </Window>

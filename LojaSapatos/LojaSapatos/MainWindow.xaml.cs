@@ -23,6 +23,23 @@ namespace LojaSapatos
         public MainWindow()
         {
             InitializeComponent();
+        }     
+
+        
+
+        
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            CadastrarSapatos cadastrarSapatos = new CadastrarSapatos();
+            cadastrarSapatos.Show();
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            
+            CadastroCliente cadastroCliente = new CadastroCliente();
+            cadastroCliente.Show();
         }
     }
 }
