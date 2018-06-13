@@ -12,7 +12,7 @@
         <Label Content="Nome:" HorizontalAlignment="Left" Margin="66,30,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="-0.135,0.62"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="126,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458"/>
         <Button Content="Pesquisar" HorizontalAlignment="Left" Margin="613,30,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="2.964,-1.4" Height="23"/>
-        <DataGrid HorizontalAlignment="Left" Height="235" Margin="40,90,0,0" VerticalAlignment="Top" Width="699"/>
+        <DataGrid Name="DG_listaProdutos" HorizontalAlignment="Left" Height="235" Margin="40,90,0,0" VerticalAlignment="Top" Width="699"/>
         <Button Content="Deletar" HorizontalAlignment="Left" Margin="40,358,0,0" VerticalAlignment="Top" Width="113" Height="34" />
         <Button Content="Editar" HorizontalAlignment="Left" Margin="626,358,0,0" VerticalAlignment="Top" Width="113" Height="34"/>
 

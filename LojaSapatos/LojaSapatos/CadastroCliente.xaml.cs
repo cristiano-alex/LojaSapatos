@@ -22,6 +22,10 @@ namespace LojaSapatos
         public CadastroCliente()
         {
             InitializeComponent();
+                  
+            
+
         }
+        
     }
 }

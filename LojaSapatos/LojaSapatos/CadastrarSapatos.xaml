@@ -11,18 +11,18 @@
             <Image Source="imagens/fundo.jpg" Stretch="Fill"/>
             <Border Background="Black" Opacity="0.4" Margin="583,25,31,81" CornerRadius="30"/>
             <Border Background="Black" Opacity="0.4" Margin="21,25,239,81" CornerRadius="30"></Border>
-            <Button Content="Salvar" HorizontalAlignment="Left" Margin="608,58,0,0" VerticalAlignment="Top" Width="128" Height="49"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="147,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Button Content="Salvar" HorizontalAlignment="Left" Margin="608,58,0,0" VerticalAlignment="Top" Width="128" Height="49" Click="Button_Click"/>
+            <TextBox Name="nm_sapato" HorizontalAlignment="Left" Height="23" Margin="147,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
             <Label Content="Nome:" HorizontalAlignment="Left" Margin="58,58,0,0" VerticalAlignment="Top" Foreground="White"/>
             <Label Content="Cadarço:&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,98,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <RadioButton Content="Sim" HorizontalAlignment="Left" Margin="147,104,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <RadioButton Content="Não" HorizontalAlignment="Left" Margin="226,104,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <RadioButton Name="cadarco_y" Content="Sim" HorizontalAlignment="Left" Margin="147,104,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <RadioButton Name="cadarco_n" Content="Não" HorizontalAlignment="Left" Margin="226,104,0,0" VerticalAlignment="Top" Foreground="White"/>
             <Label Content="Material:&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,140,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="147,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="nm_material" HorizontalAlignment="Left" Height="23" Margin="147,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
             <Label Content="Cor:&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,177,0,0" VerticalAlignment="Top" Height="32" RenderTransformOrigin="-0.153,-0.269" Foreground="White"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="147,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="nm_cor" HorizontalAlignment="Left" Height="23" Margin="147,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
             <Label Content="Preço:&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,214,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="147,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="nm_preco" HorizontalAlignment="Left" Height="23" Margin="147,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
             <Button Content="Cancelar" HorizontalAlignment="Left" Margin="608,121,0,0" VerticalAlignment="Top" Width="128" Height="49"/>
         </Grid>
 

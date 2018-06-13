@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LojaSapatos"
         mc:Ignorable="d"
-        Title="LojaSapatos" Height="800" Width="1200">
-    <Grid HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1190">
+        Title="LojaSapatos" Height="700" Width="1200">
+    <Grid HorizontalAlignment="Left" Height="668" VerticalAlignment="Top" Width="1190">
         <Image Source="imagens/fundo.jpg" Stretch="Fill"/>
         <Image Source="imagens/Logo.png" Margin="866,544,10,10"/>
         <Image Source="imagens/Logo.png" Margin="0,25,876,529"/>

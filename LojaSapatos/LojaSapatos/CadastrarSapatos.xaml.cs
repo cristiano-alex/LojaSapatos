@@ -23,5 +23,21 @@ namespace LojaSapatos
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Sapatos sapatos = new Sapatos();
+
+            sapatos.nome = nm_sapato.Text;
+            if(cadarco_y.IsChecked == true)
+            {
+                sapatos.cadarco = true;
+            }
+            sapatos.material = nm_material.Text;
+            sapatos.cor = nm_cor.Text;
+            sapatos.preco = double.Parse(nm_preco.Text);
+
+            sapatos.lista_sapatos.Add(sapatos);
+        }
     }
 }

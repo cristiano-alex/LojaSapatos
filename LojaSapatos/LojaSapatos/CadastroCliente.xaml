@@ -32,10 +32,13 @@
         <Border Background="Black" Opacity="0.4" Margin="583,25,31,81" CornerRadius="30"></Border>
         <Button Content="Salvar" HorizontalAlignment="Left" Margin="611,70,0,0" VerticalAlignment="Top" Width="128" Height="49"/>
         <Button Content="Cancelar" HorizontalAlignment="Left" Margin="611,135,0,0" VerticalAlignment="Top" Width="128" Height="49"/>
-        <Label Content="CPF/CNPJ:" HorizontalAlignment="Left" Margin="256,135,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="2.495,-1.587"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="337,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox Name="CPF_CNPJ" HorizontalAlignment="Left" Height="23" Margin="337,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <Label Content="Razão Social:" HorizontalAlignment="Left" Margin="256,175,0,0" VerticalAlignment="Top" Foreground="white"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="337,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox Name="RazaoSocial" HorizontalAlignment="Left" Height="23" Margin="337,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="256,139,0,0" VerticalAlignment="Top" Width="65">
+            <ComboBoxItem Name="CPF" Content="CPF"></ComboBoxItem>
+            <ComboBoxItem Name="CNPJ" Content="CNPJ"></ComboBoxItem>
+        </ComboBox>
 
 
     </Grid>

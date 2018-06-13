@@ -54,6 +54,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Endereco.cs" />
+    <Compile Include="Sapatos.cs" />
     <Page Include="CadastrarSapatos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -84,6 +86,7 @@
     <Compile Include="CadastroCliente.xaml.cs">
       <DependentUpon>CadastroCliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente.cs" />
     <Compile Include="ListaClientes.xaml.cs">
       <DependentUpon>ListaClientes.xaml</DependentUpon>
     </Compile>
